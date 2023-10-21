@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="Diverse Pair of Max Matching" unique_id="2" prog_lang="julia" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1693493821" ts_lastsave="1695465526">
+    <rich_text>k-factor of G
+
+Spanning subgraph, such that for every v ∈ V(G) such that Dh(v) = k.
+Dh(v) =&gt; degree of v.
+
+problem: |M1 Δ M2| &gt;= k
+
+|M1| = |M2|
+(both are maximal matching)
+
+now |M1 Δ M2| = 2 * (|M1 U M2| - |M1|)
+
+*ez proof*
+
+"if we have 2 max matchings M1 M2 in G such that |M1 U M2| is maximum,
+then the max weight of 2-factor of Graph G = |M1 U M2| - 2 * (n - |M1|)"
+
+then Wg  + 2 * (n - |M1|) = |M1 U M2|;
+
+proof&gt;
+we have 2 matchings in G (M1, M2) let they correspond to maximum |M1 U M2|
+
+denote edges of M1 U M2 in 
+
+
+B23ME1030
+</rich_text>
+  </node>
+</cherrytree>
